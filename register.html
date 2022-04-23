@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/MC.svg" />
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title> Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header>Registration
+            <div class="main-nav"> <a class="nav-logo" href="https://www.microclub.com">
+                <img src="images/MC.svg" alt="" class="main-nav-image" />
+            </a></div>
+               
+        </header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>your club </label>
+                            <select required>
+                                <option disabled selected>Select a CLUB</option>
+                                <option>Micro club</option>
+                                <option>shelmates</option>
+                                <option>open mindes </option>
+                                <option>celec</option>
+                                <option>others...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">optional Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Matricule </label>
+                            <input type="text" placeholder="Enter your ID" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>your level </label>
+                            <input type="number" placeholder="Enter your level" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>university</label>
+                            <select required>
+                                <option disabled selected>Select university</option>
+                                <option>USTHB</option>
+                                <option>ESI</option>
+                                <option>others...</option>
+                            </select>
+                        
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <select required>
+                                <option disabled selected>Select Nationality </option>
+                                <option>Algerian</option>
+                                <option>Russian</option>
+                                <option>Algerian</option>
+                                <option>French</option>
+                                <option>Tunisian</option>
+                                <option>Moroccan</option>
+                                <option>others...</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Have you ever taken part in a competition</label>
+                            <select required>
+                                <option disabled selected>Select your answer </option>
+                                <option>yes</option>
+                                <option>no</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>your section</label>
+                            <select required>
+                                <option disabled selected>Select section</option>
+                                <option>IT</option>
+                                <option>GAME DEV</option>
+                                <option>DESIGN</option>
+                                <option>Multemedia</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <select required>
+                                <option disabled selected>Permanent or Temporary </option>
+                                <option>Permanent</option>
+                                <option>Temporary</option>
+                            
+                            </select>
+                          
+                        </div>
+
+                        <div class="input-field">
+                            <label>Postal code</label>
+                            <input type="text" placeholder="Enter Postal code" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            
+
+        </form>
+
+    </div>
+
+    <script src="./js/script.js"></script> 
+</body>
+</html>
